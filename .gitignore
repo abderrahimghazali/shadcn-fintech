@@ -40,8 +40,40 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+<<<<<<< Updated upstream
 # clerk configuration (can include secrets)
 /.clerk/
 
 # promo video
 /video/
+=======
+server.log
+# Skills directory
+/skills/
+# Monkey Pay Backend
+dist/
+.env
+.env.local
+.env.*.local
+
+# Supabase
+supabase/.temp/
+
+# Upload/Download (transient)
+/upload/
+/download/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+
+# Z.ai scripts (internal)
+.zscripts/
+agent-ctx/
+Caddyfile
+prompt
+test
+>>>>>>> Stashed changes
